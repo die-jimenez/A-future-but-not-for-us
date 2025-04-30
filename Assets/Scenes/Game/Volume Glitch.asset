@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6990890865383251362
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fa0085f50d5e54f8144f766051a691, type: 3}
+  m_Name: FilmGrain
+  m_EditorClassIdentifier: 
+  active: 1
+  type:
+    m_OverrideState: 1
+    m_Value: 10
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.523
+  response:
+    m_OverrideState: 1
+    m_Value: 0.276
+  texture:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: fa4c627cd71aeeb418b175461092b01a, type: 3}
+--- !u!114 &-392566413020648673
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d536c364ebc24dd6b769ef6affde936a, type: 3}
+  m_Name: DigitalGlitchVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.375
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Volume Glitch
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 6304958330834504739}
+  - {fileID: 1942207022008186439}
+  - {fileID: -6990890865383251362}
+  - {fileID: 7952435020779628893}
+  - {fileID: 8802427589066118490}
+  - {fileID: 3334846893980272014}
+  - {fileID: -392566413020648673}
+--- !u!114 &1942207022008186439
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 0
+  skipIterations:
+    m_OverrideState: 1
+    m_Value: 1
+  threshold:
+    m_OverrideState: 1
+    m_Value: 0.4
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.56
+  scatter:
+    m_OverrideState: 1
+    m_Value: 0.496
+  clamp:
+    m_OverrideState: 0
+    m_Value: 100
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  highQualityFiltering:
+    m_OverrideState: 1
+    m_Value: 0
+  downscale:
+    m_OverrideState: 0
+    m_Value: 0
+  maxIterations:
+    m_OverrideState: 0
+    m_Value: 6
+  dirtTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+    dimension: 1
+  dirtIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &3334846893980272014
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fac1424df44990a90443d3cf649a75, type: 3}
+  m_Name: AnalogGlitchVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  scanLineJitter:
+    m_OverrideState: 1
+    m_Value: 0.402
+  verticalJump:
+    m_OverrideState: 0
+    m_Value: 0
+  horizontalShake:
+    m_OverrideState: 1
+    m_Value: 0.162
+  colorDrift:
+    m_OverrideState: 1
+    m_Value: 0.107
+--- !u!114 &6304958330834504739
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb2952b95454955ba507c3d96778a76, type: 3}
+  m_Name: VhsVol
+  m_EditorClassIdentifier: 
+  active: 0
+  _weight:
+    m_OverrideState: 1
+    m_Value: 0.202
+  _bleed:
+    m_OverrideState: 1
+    m_Value: 6.57
+  _rocking:
+    m_OverrideState: 1
+    m_Value: 0.0691
+  _tape:
+    m_OverrideState: 1
+    m_Value: 1.41
+  _noise:
+    m_OverrideState: 1
+    m_Value: 0.826
+  _flickering:
+    m_OverrideState: 1
+    m_Value: 1.99
+  _glitch:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &7952435020779628893
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.806
+--- !u!114 &8802427589066118490
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0.88
+  contrast:
+    m_OverrideState: 1
+    m_Value: 11
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 0.93962264, g: 0.71446776, b: 0.71446776, a: 1}
+  hueShift:
+    m_OverrideState: 1
+    m_Value: 78
+  saturation:
+    m_OverrideState: 1
+    m_Value: -2

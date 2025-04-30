@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c20096d0c6271be4cb22c5db1d776283, type: 3}
+  m_Name: 2D Character
+  m_EditorClassIdentifier: 
+  dialogs:
+  - _id: GM_CHR_DLG_RANDOM_01
+    _text: 
+    _duration: 5
+    _audioEs: {fileID: 0}
+    _audioEn: {fileID: 0}
+    _multipleTexts: 0
+  - _id: GM_CHR_DLG_RANDOM_02
+    _text: 
+    _duration: 5
+    _audioEs: {fileID: 0}
+    _audioEn: {fileID: 0}
+    _multipleTexts: 0
+  - _id: GM_CHR_DLG_RANDOM_03
+    _text: 
+    _duration: 5
+    _audioEs: {fileID: 0}
+    _audioEn: {fileID: 0}
+    _multipleTexts: 0
+  - _id: GM_CHR_DLG_RANDOM_04
+    _text: 
+    _duration: 5
+    _audioEs: {fileID: 0}
+    _audioEn: {fileID: 0}
+    _multipleTexts: 0
+  - _id: GM_CHR_DLG_RANDOM_05
+    _text: 
+    _duration: 5
+    _audioEs: {fileID: 0}
+    _audioEn: {fileID: 0}
+    _multipleTexts: 0
+  - _id: GM_CHR_DLG_RANDOM_06
+    _text: 
+    _duration: 5
+    _audioEs: {fileID: 0}
+    _audioEn: {fileID: 0}
+    _multipleTexts: 0
+  frecuencyTime: 20
+  loop: 0

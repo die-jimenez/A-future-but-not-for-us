@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8246530657946573850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8614342347962329302}
+  - component: {fileID: 2969526825377828634}
+  - component: {fileID: 247977206060127723}
+  m_Layer: 0
+  m_Name: SequenceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8614342347962329302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246530657946573850}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13, y: 6.6000004, z: 30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2969526825377828634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246530657946573850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897b2898de196754c863ee6eedf2ef21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hackInput: {fileID: 247977206060127723}
+  _codesData:
+  - _currentTexture: {fileID: 0}
+    def_texture: {fileID: 2800000, guid: 1797cee11dfb63a4b8887af31e5c6a12, type: 3}
+    alt_texture: {fileID: 2800000, guid: 294f9529666021f448d7897eec17e406, type: 3}
+    keys: []
+  - _currentTexture: {fileID: 0}
+    def_texture: {fileID: 2800000, guid: fec1d23db1fa7a443956c66c954f9b5d, type: 3}
+    alt_texture: {fileID: 2800000, guid: 5b89256d86693214faecec3701021bda, type: 3}
+    keys: []
+  - _currentTexture: {fileID: 0}
+    def_texture: {fileID: 2800000, guid: 2180175a9223c8c48a167a863fa5c91e, type: 3}
+    alt_texture: {fileID: 2800000, guid: f10270f907de50544bb1cec94199320d, type: 3}
+    keys: []
+  sequenceStarted: {fileID: 0}
+  currentCodeDebug: {fileID: 0}
+  sequencesActive: []
+--- !u!114 &247977206060127723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246530657946573850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 3d628ae9b8355e04c8de93578aa32176, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 72a580b4-da15-4417-8493-f42532995cc2
+    m_ActionName: Sequencia Hackeo/CodePressed[/Keyboard/numpad1,/Keyboard/numpad2,/Keyboard/numpad3,/Keyboard/1,/Keyboard/2,/Keyboard/3]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a8526a7f-8002-4028-a00f-bfe9e8b9503f
+    m_ActionName: Hacking/Press2[/Keyboard/numpad2,/Keyboard/2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bfabf3ff-00b5-4834-b7d8-ba307476d1d1
+    m_ActionName: Hacking/Press3[/Keyboard/numpad3,/Keyboard/3]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 60e123ae-7750-4fe6-b29a-07ffcb639bbd
+    m_ActionName: Upgrades/Upgrade1[/Keyboard/numpad1,/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dc764904-7acf-4445-a1b5-d246a2a4f773
+    m_ActionName: Upgrades/Upgrade2[/Keyboard/numpad2,/Keyboard/2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 46ed4621-0ee3-419b-861b-a70748c5eaf1
+    m_ActionName: Upgrades/Upgrade3[/Keyboard/numpad3,/Keyboard/3]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 58546c5b-b0ca-462d-8811-88b6c00c9c0e
+    m_ActionName: DeathScreen/Revivir[/Keyboard/numpad1,/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0c84bedd-b29e-4650-9c43-aa2f4403ff21
+    m_ActionName: NotHackeo/No Cambiar, Si hace algo
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Hackeo
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

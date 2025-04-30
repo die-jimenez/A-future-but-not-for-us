@@ -1,0 +1,532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5e014259b18364a9ca598df38b4c67, type: 3}
+  m_Name: LanguageContainer
+  m_EditorClassIdentifier: 
+  foldoutImportGUI: 1
+  documentId: 1LFiy7bMnPcAUGUn7gKwZ6JjjY0l_VIQEU-r_5BkTY7E
+  selectedTogglesIds:
+  - menu
+  - game2D
+  foldoutSerializationGUI: 1
+  serializationOutputPath: ../../Configs
+  serializationFileName: Configs.v0.1
+  serializationFormat: 0
+  content:
+    Menu:
+    - Id: MENU_CTA_01
+      Descripcion: Instrucciones de primera pantalla
+      Ubicacion: 
+      Es: Presiona en orden
+      En: Press in order
+    - Id: MENU_POPUP_CTA
+      Descripcion: "Bot\xF3n de popup de actualizaci\xF3n"
+      Ubicacion: 
+      Es: Aceptar
+      En: Accept all
+    - Id: MENU_POPUP_PATCH
+      Descripcion: "Titulo de Pop up de actualizaci\xF3n"
+      Ubicacion: 
+      Es: PARCHE #8
+      En: Patch #8
+    - Id: MENU_POPUP_PAR
+      Descripcion: "Parrafo de Pop up de actualizaci\xF3n"
+      Ubicacion: 
+      Es: "Hola comunidad<br>\xA1Prep\xE1rense! Porque hoy lanzamos nuestra actualizaci\xF3n
+        m\xE1s ambiciosa<br><br>Hemos incorporado <color=#E0CD64>una nueva inteligencia
+        artificial (IA) capaz de modificar el c\xF3digo de tu partida en tiempo real,</color>
+        generando contenido adicional \xFAnico en base a todas tus horas de juego.
+        <u>Esto significa nuevas habilidades, enemigos, cosm\xE9ticos personalizados
+        y un sinf\xEDn de posibilidades.</u>"
+      En: "Hey gang<br>Get ready! because today we\u2019re launching our most ambitious
+        update yet!<br><br>We\u2019ve added <color=#E0CD64>a brand-new artificial
+        intelligence (AI) capable of modifying your game\u2019s code in real time,</color>
+        generating unique additional content based on all your hours of gameplay.<u>
+        This means new abilities, enemies, customizable cosmetics, and endless possibilities.</u>"
+    - Id: MENU_POPUP_SUB
+      Descripcion: "Subtitulo de legales del Pop up de actualizaci\xF3n"
+      Ubicacion: 
+      Es: "Aviso Legal de Recopilaci\xF3n de Datos"
+      En: Data Collection Notice
+    - Id: MENU_POPUP_SUB_PAR
+      Descripcion: "Parrafo de legales del Pop up de actualizaci\xF3n"
+      Ubicacion: 
+      Es: "La privacidad del usuario es prioritaria. Los datos recolectados ser\xE1n
+        tratados \xFAnicamente para optimizar su experiencia de juego. No ser\xE1n
+        comercializados con terceros, ni se emplear\xE1n con fines totalmente inapropiados
+        solo con el af\xE1n de generar m\xE1s ingresos."
+      En: User privacy is a top priority. Collected data will be used solely to enhance
+        your gameplay experience in meaningful and personalized ways. It will not
+        be sold to third parties or exploited for inappropriate purposes just to
+        squeeze out a little more profit.
+    - Id: MENU_POPUP_SUB_END
+      Descripcion: Final del PopUp
+      Ubicacion: 
+      Es: "\xA1Cr\xE9anos!"
+      En: Trust us!
+    - Id: MENU_POPUP_IA
+      Descripcion: Texto descriptivo de la IA en PopUp
+      Ubicacion: 
+      Es: NUEVA IA
+      En: NEW AI
+    - Id: MENU_CTA_02
+      Descripcion: Instrucciones del menu principal
+      Ubicacion: 
+      Es: Introduce la secuencia
+      En: Enter the sequence
+    - Id: MENU_BUTTON_START
+      Descripcion: "Bot\xF3n para empezar"
+      Ubicacion: 
+      Es: Iniciar
+      En: Start
+    - Id: MENU_BUTTON_SEC
+      Descripcion: "B\xF3ton"
+      Ubicacion: 
+      Es: Idioma
+      En: Language
+    - Id: MENU_LAN_EN
+      Descripcion: Opcion seleccionable de idioma
+      Ubicacion: Prefab de ButtonA - Submenu
+      Es: Ingles
+      En: English
+    - Id: MENU_LAN_ES
+      Descripcion: Opcion seleccionable de idioma
+      Ubicacion: Prefab de ButtonA - Submenu
+      Es: "Espa\xF1ol"
+      En: Spanish
+    - Id: MENU_OR
+      Descripcion: or de la pantalla de inicio para el cambio de controles
+      Ubicacion: 
+      Es: o
+      En: or
+    game2D:
+    - Id: CINE_CTA_01
+      Descripcion: "Instrucciones 1 de cinem\xE1tica"
+      Ubicacion: Objeto-- Introduce secuencia
+      Es: Hackea los servidores
+      En: Hack the servers
+    - Id: CINE_BAR_01
+      Descripcion: "Mensaje de barra de carga 1 de cinem\xE1tica"
+      Ubicacion: Objeto-- Ingresando al sistema
+      Es: Ingresando al sistema
+      En: Accessing the system
+    - Id: CINE_CTA_02
+      Descripcion: "Instrucciones 2 de cinem\xE1tica"
+      Ubicacion: script-- Tutorial Manager.cs
+      Es: Elimina la base de datos
+      En: Delete the database
+    - Id: CINE_BAR_02
+      Descripcion: "Mensaje de barra de carga 2 de cinem\xE1tica"
+      Ubicacion: script-- Tutorial Manager.cs
+      Es: Formateando sistema
+      En: Formatting system
+    - Id: CINE_CTA_03
+      Descripcion: "Instrucciones 3 de cinem\xE1tica"
+      Ubicacion: script-- Tutorial Manager.cs
+      Es: Destruye a los robots
+      En: Destroy all robots
+    - Id: CINE_BAR_03
+      Descripcion: "Mensaje de barra de carga 3 de cinem\xE1tica"
+      Ubicacion: script-- Tutorial Manager.cs
+      Es: Ejecutando KBum.exe
+      En: Executing KBum.exe
+    - Id: CINE_ALARM
+      Descripcion: 'Mensaje de alarma '
+      Ubicacion: script-- Tutorial Manager.cs
+      Es: Intruso
+      En: Intruder
+    - Id: TUT_ROBOT_MOVE_01
+      Descripcion: Instrucciones de robot 1
+      Ubicacion: script-- Tutorial Manager.cs
+      Es: Te descubrieron
+      En: "You\u2019ve been spotted"
+    - Id: TUT_ROBOT_MOVE_02
+      Descripcion: Instrucciones de robot 2
+      Ubicacion: script-- Tutorial Manager.cs
+      Es: Movete con <b>WASD</b>
+      En: Move with <b>WASD</b>
+    - Id: TUT_ROBOT_SHOOT
+      Descripcion: Instrucciones cuando te acercas a la puerta
+      Ubicacion: 'Objeto-- Trigger: Instrucciones arma'
+      Es: Dispara a la puerta! |-Con <i><b>espacio</b></i>
+      En: Shoot the door! |-Use <i><b>Space</b></i>
+    - Id: TUT_ROBOT_HACK
+      Descripcion: Instrucciones cuando disparas a la puerta
+      Ubicacion: 'Objeto-- Trigger: Instrucciones hackeo'
+      Es: Hackea la puerta |-Presionando los botones en el orden
+      En: Hack the door
+    - Id: TUT_ROBOT_HALLWAY
+      Descripcion: Instrucciones al salir del tutorial
+      Ubicacion: 'Objeto-- Trigger: Ultimas instrucciones ||| Objeto-- Trigger: Ultimas
+        instrucciones (Detras 1) ||| Objeto-- Trigger: Ultimas instrucciones (Detras
+        2)'
+      Es: "Recuerda! |-Tus balas no hacen da\xF1o |-Para destruir a los robots |-Debes
+        hackearlos"
+      En: "Remember! |-Your bullets don\u2019t deal damage |-To destroy robots |-You
+        must hack them"
+    - Id: TUT_ROBOT_LEVELUP
+      Descripcion: Instrucciones para subir de nivel
+      Ubicacion: script-- Tutorial Manager.cs
+      Es: Agarra las esferas azules |-Te permiten adquirir mejoras
+      En: Grab the blue spheres |- to unlock upgrades
+    - Id: GM_CREDITS_DEV
+      Descripcion: Creditos en el pasillo post tutorial
+      Ubicacion: 'Objeto-- '
+      Es: 'Desarrollado por:'
+      En: 'Developed by:'
+    - Id: GM_CREDITS_MUSIC
+      Descripcion: Creditos en el pasillo post tutorial
+      Ubicacion: 'Objeto-- '
+      Es: "M\xFAsica de:"
+      En: 'Music by:'
+    - Id: GM_CREDITS_DESIGN
+      Descripcion: Creditos en el pasillo post tutorial
+      Ubicacion: 'Objeto-- '
+      Es: "Dise\xF1o 3D por:"
+      En: '3D Design by:'
+    - Id: GM_UI_HEALTH
+      Descripcion: UI del modo 2D
+      Ubicacion: Objeto-- Vida (Text)
+      Es: 'Vida:'
+      En: 'Health:'
+    - Id: GM_UI_DESTROY
+      Descripcion: UI del modo 2D
+      Ubicacion: 'Objeto-- Destruyelos '
+      Es: Destruyelos!
+      En: Destroy them!
+    - Id: GM_UI_UPGRADE_BAR
+      Descripcion: UI del modo 2D
+      Ubicacion: Objeto-- Mejora (Text)
+      Es: Cargando Mejoras
+      En: Loading upgrades
+    - Id: GM_UPG_CTA
+      Descripcion: 'UI del canvas de mejoras '
+      Ubicacion: Objeto-- Call to Action-->Text(TMP)
+      Es: "ELIGE UNA MEJ\xD3RA"
+      En: Choose an upgrade
+    - Id: GM_UPG_TITLE_ROBOVIDA
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- Almas Roboticas
+      Es: "ALMAS ROB\xD3TICAS"
+      En: ROBOTIC SOULS
+    - Id: GM_UPG_DESC_ROBOVIDA
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- Almas Roboticas
+      Es: Roba salud de enemigos al morir.
+      En: Steals health from enemies when they die.
+    - Id: GM_UPG_TITLE_AUTOHACK
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- AutoHack
+      Es: "PIRATA ELECTR\xD3NICO"
+      En: ELECTRONIC PIRATE
+    - Id: GM_UPG_DESC_AUTOHACK
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- AutoHack
+      Es: "La inteligencia artificial hackear\xE1 a los enemigos de forma autom\xE1tica."
+      En: The AI will automatically hack enemies.
+    - Id: GM_UPG_TITLE_AUTOMOVE
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- AutoMove
+      Es: "DANZA ROB\xD3TICA"
+      En: ROBOTIC DANCE
+    - Id: GM_UPG_DESC_AUTOMOVE
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- AutoMove
+      Es: "La inteligencia artificial mover\xE1 el personaje de forma optima."
+      En: The AI will move your character optimally.
+    - Id: GM_UPG_TITLE_AUTOSHOOT
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- AutoShoot
+      Es: "PUNTERIA CIBERN\xC9TICA"
+      En: CYBERNETIC AIM
+    - Id: GM_UPG_DESC_AUTOSHOOT
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- AutoShoot
+      Es: "La inteligencia artificial disparar\xE1 a los enemigos por ti."
+      En: The AI will shoot enemies for you.
+    - Id: GM_UPG_TITLE_SHIELD
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- Escudo de Electrones
+      Es: ESCUDO DE ELECTRONES
+      En: ELECTRONIC SHIELD
+    - Id: GM_UPG_DESC_SHIELD
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- Escudo de Electrones
+      Es: Bloquea el primer ataque cada 60 segundos
+      En: Blocks the first attack (60s cooldown).
+    - Id: GM_UPG_TITLE_EXPLOSION
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- Nano Explosiones
+      Es: NANO EXPLOSIONES
+      En: NANO EXPLOSIONS
+    - Id: GM_UPG_DESC_EXPLOSION
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- Nano Explosiones
+      Es: "Al morir los enemigos hacen da\xF1o a su alrededor."
+      En: When enemies die, they do damage all around them.
+    - Id: GM_UPG_TITLE_PULSE
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- Pulso Electronico
+      Es: PULSO ELECTRONICO
+      En: ELECTRONIC PULSE
+    - Id: GM_UPG_DESC_PULSE
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- Pulso Electronico
+      Es: "Ondas da\xF1inas impactan a todos los enemigos cercanos."
+      En: Damaging waves hit all nearby enemies.
+    - Id: GM_UPG_TITLE_CHAIN
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- Reaccion en cadena
+      Es: "REACCI\xD3N EN CADENA"
+      En: CHAIN REACTION
+    - Id: GM_UPG_DESC_CHAIN
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- Reaccion en cadena
+      Es: Al morir los enemigos hackean a los de su alrededor.
+      En: When enemies die, they hack nearby enemies.
+    - Id: GM_UPG_TITLE_OVERLOAD
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- Sobrecarga Kinetica
+      Es: "SOBRECARGA KIN\xC9TICA"
+      En: KINETIC OVERLOAD
+    - Id: GM_UPG_DESC_OVERLOAD
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- Sobrecarga Kinetica
+      Es: "Hackea a los enemigos cercanos tras recibir da\xF1o."
+      En: Hacks nearby enemies after taking damage.
+    - Id: GM_UPG_TITLE_EXPBOOST
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- Subidon de Datos
+      Es: "SUBID\xD3N DE DATOS"
+      En: DATA BOOST
+    - Id: GM_UPG_DESC_EXPBOOST
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- Subidon de Datos
+      Es: Aumenta un 25% la experiencia ganada de enemigos.
+      En: 25% XP gained from enemies.
+    - Id: GM_UPG_TITLE_SPEED
+      Descripcion: Titulo de mejora
+      Ubicacion: scriptable-- Velocidad Sobrehumana
+      Es: VELOCIDAD SOBREHUMANA
+      En: SUPERHUMAN SPEED
+    - Id: GM_UPG_DESC_SPEED
+      Descripcion: "Descripci\xF3n de mejora"
+      Ubicacion: scriptable-- Velocidad Sobrehumana
+      Es: Incrementa tu velocidad de movimiento un 30%.
+      En: 30% movement speed.
+    - Id: GM_CHR_DLG_RANDOM_01
+      Descripcion: Dialogos aleatorios del personaje 1
+      Ubicacion: scriptable-- 2D Character
+      Es: No me van a remplazar
+      En: "You won\u2019t replace me!"
+    - Id: GM_CHR_DLG_RANDOM_02
+      Descripcion: Dialogos aleatorios del personaje 2
+      Ubicacion: scriptable-- 2D Character
+      Es: Los voy a destruir
+      En: "I\u2019ll destroy all of you!"
+    - Id: GM_CHR_DLG_RANDOM_03
+      Descripcion: Dialogos aleatorios del personaje 3
+      Ubicacion: scriptable-- 2D Character
+      Es: Pedazos de chatarra
+      En: Pieces of junk!
+    - Id: GM_CHR_DLG_RANDOM_04
+      Descripcion: Dialogos aleatorios del personaje 4
+      Ubicacion: scriptable-- 2D Character
+      Es: "Les matar\xE9 a todos"
+      En: "I\u2019ll kill every single one of you!"
+    - Id: GM_CHR_DLG_RANDOM_05
+      Descripcion: Dialogos aleatorios del personaje 5
+      Ubicacion: scriptable-- 2D Character
+      Es: "Latas de at\xFAn con luces"
+      En: Flying toasters
+    - Id: GM_CHR_DLG_RANDOM_06
+      Descripcion: Dialogos aleatorios del personaje 6
+      Ubicacion: scriptable-- 2D Character
+      Es: Mueran!!!
+      En: Die!!!
+    - Id: GM_ROBOT_AFTER_AUTOHACK
+      Descripcion: Dialogo del robot al tomar el autoHack
+      Ubicacion: script-- UpgradePanelManager
+      Es: Descuida|-Yo los hackeo
+      En: Relax|-I'll hack them
+    - Id: GM_ROBOT_AFTER_AUTOSHOOT
+      Descripcion: Dialogo del robot al tomar el autoShoot
+      Ubicacion: script-- UpgradePanelManager
+      Es: Tu apunta|-Yo disparo
+      En: You dodge|-I got the shots
+    - Id: GM_ROBOT_AFTER_AUTOMOVE
+      Descripcion: Dialogo del robot al tomar el autoMove
+      Ubicacion: script-- UpgradePanelManager
+      Es: Solta los controles|-Ahora juego yo
+      En: Release the controls|-It's my turn to play
+    - Id: DTH_ROBOT_AUTOMOVE_01
+      Descripcion: Dialogos de muerte, cuando tienes AutoMove (1)
+      Ubicacion: script-- DeathScreenManager
+      Es: Perdimos por tu culpa
+      En: We lost because of you
+    - Id: DTH_ROBOT_AUTOMOVE_02
+      Descripcion: Dialogos de muerte, cuando tienes AutoMove (2)
+      Ubicacion: script-- DeathScreenManager
+      Es: Nos dejaste sin vida
+      En: You left us with no health
+    - Id: DTH_ROBOT_AUTOMOVE_03
+      Descripcion: Dialogos de muerte, cuando tienes AutoMove (3)
+      Ubicacion: script-- DeathScreenManager
+      Es: "Resolver\xE9 mejor sin ti"
+      En: "I\u2019ll do better without you"
+    - Id: DTH_ROBOT_01
+      Descripcion: Dialogos de muerte 1
+      Ubicacion: script-- DeathScreenManager
+      Es: Parece que necesitas ayuda
+      En: Looks like you need help
+    - Id: DTH_ROBOT_02
+      Descripcion: Dialogos de muerte 2
+      Ubicacion: script-- DeathScreenManager
+      Es: Para continuar
+      En: To continue...
+    - Id: DTH_ROBOT_03
+      Descripcion: Dialogos de muerte 3
+      Ubicacion: script-- DeathScreenManager
+      Es: "\xA1Presiona la tecla 1!"
+      En: Press the 1 key!
+    - Id: DTH_ROBOT_04
+      Descripcion: Dialogos de muerte 4
+      Ubicacion: script-- DeathScreenManager
+      Es: Tienes -x- segundos
+      En: You have -x- seconds
+    - Id: DTH_ROBOT_COUNTDOWN
+      Descripcion: Conteo regresivo de muerte
+      Ubicacion: script-- DeathScreenManager
+      Es: Tienes -x- segundos
+      En: You have -x- seconds
+    - Id: DTH_ROBOT_DEAD_01
+      Descripcion: Dialogo cuando no revives
+      Ubicacion: script-- DeathScreenManager
+      Es: "\xBFTe aburriste?"
+      En: Got bored?
+    - Id: DTH_ROBOT_DEAD_02
+      Descripcion: Dialogo cuando no revives
+      Ubicacion: script-- DeathScreenManager
+      Es: Queria seguir jugando
+      En: I wanted to keep playing
+    - Id: DTH_ROBOT_REVIVE
+      Descripcion: Dialogo cuando revives
+      Ubicacion: script-- DeathScreenManager
+      Es: Agarra las esferas azules |-Te permiten adquirir mejoras
+      En: Grab the blue spheres |- to unlock upgrades
+    game3D:
+    - Id: 3D_GIRL_01
+      Descripcion: Lista de mensajes de tu pareja 1
+      Ubicacion: script-- Level3Devents
+      Es: "Tienes un nuevo mensaje de Mar\xEDa"
+      En: "You have a new message from Mar\xEDa:"
+    - Id: 3D_GIRL_02
+      Descripcion: Lista de mensajes de tu pareja 2
+      Ubicacion: script-- Level3Devents
+      Es: Recien acabo de llegar y estoy muerta
+      En: "I just got home, and I\u2019m dead tired"
+    - Id: 3D_GIRL_03
+      Descripcion: Lista de mensajes de tu pareja 3
+      Ubicacion: script-- Level3Devents
+      Es: pero lo peor es que apenas voy a poder descansar
+      En: "worst part is I won\u2019t even get to rest"
+    - Id: 3D_GIRL_04
+      Descripcion: Lista de mensajes de tu pareja 4
+      Ubicacion: script-- Level3Devents
+      Es: "porque el pelotudo de Carlos nos esta obligando ir ma\xF1ana por"
+      En: that asshole John is making us go in tomorrow for
+    - Id: 3D_GIRL_05
+      Descripcion: Lista de mensajes de tu pareja 5
+      Ubicacion: script-- Level3Devents
+      Es: <i>no cumplir sus estimaciones</i>
+      En: <i>not meeting his estimates</i>
+    - Id: 3D_GIRL_06
+      Descripcion: Lista de mensajes de tu pareja 6
+      Ubicacion: script-- Level3Devents
+      Es: es domingo, dejate de joder
+      En: "It\u2019s Sunday, can we not? "
+    - Id: 3D_GIRL_07
+      Descripcion: Lista de mensajes de tu pareja 7
+      Ubicacion: script-- Level3Devents
+      Es: "vos amor, \xBFc\xF3mo estas? \xBFya te vas a dormir?"
+      En: How are you, babe? Going to bed soon?
+    - Id: 3D_GIRL_08
+      Descripcion: Lista de mensajes de tu pareja 8
+      Ubicacion: script-- Level3Devents
+      Es: Te amo
+      En: Love you
+    - Id: 3D_IA_NOTIFICATION_01
+      Descripcion: IA informa que fue una IA, leido voz neutra
+      Ubicacion: script-- Level3Devents
+      Es: Este mensaje fue escrito por una IA.
+      En: This message was written by an AI.
+    - Id: 3D_IA_QUESTION
+      Descripcion: Pregunta de la IA, leido por la IA neutra
+      Ubicacion: script-- Level3Devents
+      Es: "\xBFQuieres responder el mensaje?"
+      En: Do you want to reply?
+    - Id: 3D_CHR_01
+      Descripcion: Lista de mensajes tuyos 1
+      Ubicacion: script-- Level3Devents
+      Es: Que pesado ese boludo
+      En: God, he's such a pain in the ass
+    - Id: 3D_CHR_02
+      Descripcion: Lista de mensajes tuyos 2
+      Ubicacion: script-- Level3Devents
+      Es: Yo llegue hace poco igual
+      En: I only just got here
+    - Id: 3D_CHR_03
+      Descripcion: Lista de mensajes tuyos 3
+      Ubicacion: script-- Level3Devents
+      Es: y me puse a jugar para distraerme
+      En: and started gaming to take my mind off
+    - Id: 3D_CHR_04
+      Descripcion: Lista de mensajes tuyos 4
+      Ubicacion: script-- Level3Devents
+      Es: pero me parece ya estoy para irme a la cama
+      En: "but I guess it\u2019s bedtime now"
+    - Id: 3D_CHR_05
+      Descripcion: Lista de mensajes tuyos 5
+      Ubicacion: script-- Level3Devents
+      Es: "Te amo cari\xF1o"
+      En: Love you
+    - Id: 3D_IA_NOTIFICATION_02
+      Descripcion: IA informa que fue una IA, leido voz neutra
+      Ubicacion: script-- Level3Devents
+      Es: Este mensaje fue escrito por una IA.
+      En: This message was written by an AI.
+    - Id: 3D_DOTS
+      Descripcion: Puntos suspensivos, solo eso
+      Ubicacion: script-- Level3Devents
+      Es: ...
+      En: ...
+    - Id: 3D_IA_ANSWER
+      Descripcion: Fin de tu mensaje, leido por la IA neutra
+      Ubicacion: script-- Level3Devents
+      Es: Mensaje Enviado
+      En: Message Sent
+    - Id: 3D_IA_END
+      Descripcion: Dialogo de la IA si tarda en dormir (IA neutra)
+      Ubicacion: script-- Level3Devents
+      Es: Tu tiempo acabo, a dormir
+      En: Your time is over, time to rest
+    - Id: 3D_IA_CTA_BED
+      Descripcion: Call to Action en UI al estar frente a la cama
+      Ubicacion: objeto-- Bed Base 2 (1).001
+      Es: Dormir
+      En: Sleep
+    - Id: 3D_IA_CTA_PHONE
+      Descripcion: Call to Action en UI al estar frente al celular tras escuchar
+        el mensaje de tu pareja
+      Ubicacion: objeto-- Phone
+      Es: Responder
+      En: Reply
