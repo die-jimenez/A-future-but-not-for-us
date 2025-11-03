@@ -4,7 +4,6 @@
 It's a **narrative/serious game** with a **cyberpunk aesthetic** that evokes the 80s. The objective is to survive waves of robots while getting upgrades, **but your companion, a small AI-powered robot, will increasingly try to control your character.**  
 **Who will be the last one playing?**
 
----
 &nbsp;
 
 ## 🧠 My Role
@@ -17,7 +16,7 @@ The following points are the key highlights of my work:
 - **Implementation of dialogs and localization systems**, including a tool for switching texts and audio to multiple languages using CSV and JSON files  
 - **Development of UI programming** (main menu and gameplay interface)
 
----
+&nbsp;
 
 ## ⚙️ Technical Achievements
 
