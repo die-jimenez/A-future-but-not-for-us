@@ -1,7 +1,7 @@
 ## 🎮 Theme
 
-*A future but not for us* is a videogame that explores the intrusion of artificial intelligences into activities we consider fun, from gaming to socializing.  
-It's a **narrative/serious game** with a **cyberpunk aesthetic** that evokes the 80s. The objective is to survive waves of robots while getting upgrades, **but your companion, a small AI-powered robot, will increasingly try to control your character.**  
+*A future but not for us* is a videogame that explores the intrusion of artificial intelligences into activities we consider fun, from gaming to socializing. It's a **narrative/serious game** with a **cyberpunk aesthetic** that evokes the 80s. The objective is to survive waves of robots while getting upgrades, **but your companion, a small AI-powered robot, will increasingly try to control your character.**  
+
 **Who will be the last one playing?**
 
 &nbsp;
