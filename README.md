@@ -1,9 +1,7 @@
 ## 🎮 Theme
 
 *A future but not for us* is a videogame that explores the intrusion of artificial intelligences into activities we consider fun, from gaming to socializing.  
-It's a **narrative/serious game** with a **cyberpunk aesthetic** that evokes the 80s.  
-
-The objective is to survive waves of robots while getting upgrades, **but your companion, a small AI-powered robot, will increasingly try to control your character.**  
+It's a **narrative/serious game** with a **cyberpunk aesthetic** that evokes the 80s. The objective is to survive waves of robots while getting upgrades, **but your companion, a small AI-powered robot, will increasingly try to control your character.**  
 **Who will be the last one playing?**
 
 ---
@@ -24,13 +22,30 @@ The following points are the key highlights of my work:
 
 ### 🧭 Dynamic Pathfinding with Context Steering
 
-At a certain point in the game, your character moves on its own and adopts two behaviors: **fleeing** and **chasing targets** among hundreds of moving enemies.  
+At a certain point in the game, your character moves on its own and adopts two behaviors: **fleeing** and **chasing targets** among hundreds of moving enemies. To achieve this, I implemented a system inspired by the bot movement in the game *F1 2011*, as explained in the article **[Context Steering, Behavior-Driven Steering at the Macro Scale](https://www.gamasutra.com/view/news/128086/Context_Steering_BehaviorDriven_Steering_at_the_Macro_Scale.php)** by *Andrew Fray*.
 
-To achieve this, I implemented a system inspired by the bot movement in the game *F1 2011*, as explained in the article  
-**[Context Steering, Behavior-Driven Steering at the Macro Scale](https://www.gamasutra.com/view/news/128086/Context_Steering_BehaviorDriven_Steering_at_the_Macro_Scale.php)** by *Andrew Fray*.
-
-It consists of building **context maps** by projecting the character in different directions and calculating how dangerous or interesting those positions are, based on distance, angles, and other parameters relative to nearby enemies.  
-
-I mainly developed two types of behaviors: **fleeing** and **chasing enemies**. These are easy to modify, and their logic (similar to weight distribution in a 3D rig) has the potential to produce other behaviors. When combined, they generate very natural movements.
+It consists of building **context maps** by projecting the character in different directions and calculating how dangerous or interesting those positions are, based on distance, angles, and other parameters relative to nearby enemies. I mainly developed two types of behaviors: **fleeing** and **chasing enemies**. These are easy to modify, and their logic (similar to weight distribution in a 3D rig) has the potential to produce other behaviors. When combined, they generate very natural movements.
 
 **Performance:** *0.30–0.65 ms per agent* through full math calculations (**without raycast**), recalculating every 3 frames, enabling movement through hundreds of enemies without performance impact.
+
+<table>
+  <tr>
+    <td width="48%">
+      <img src="https://diegojimenez.com.ar/data/img/a-future/run-away.webp"/>
+    </td>
+    <!-- otra fila -->
+    <td width="48%">
+      <img src="https://diegojimenez.com.ar/data/img/a-future/chase.webp"/>
+    </td>
+  </tr>
+  <!-- otra fila -->
+   <tr>
+    <td width="48%">
+      <img src="https://diegojimenez.com.ar/data/img/a-future/run-away-900.gif"/>
+    </td>
+    <!-- otra fila -->
+    <td width="48%">
+      <img src="https://diegojimenez.com.ar/data/img/a-future/chase-900.gif"/>
+    </td>
+  </tr>
+</table>
