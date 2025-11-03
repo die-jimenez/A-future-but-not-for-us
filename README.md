@@ -11,10 +11,10 @@ It's a **narrative/serious game** with a **cyberpunk aesthetic** that evokes the
 In this project, I was responsible for the **technical development** as the only programmer.  
 The following points are the key highlights of my work:
 
-- **Creation of the main character's AI**  
-- **Programming of gameplay mechanics (2D and 3D)**  
-- **Implementation of dialogs and localization systems**, including a tool for switching texts and audio to multiple languages using CSV and JSON files  
-- **Development of UI programming** (main menu and gameplay interface)
+- Creation of the main character's AI
+- Programming of gameplay mechanics (2D and 3D)  
+- Implementation of dialogs and localization systems, including a tool for switching texts and audio to multiple languages using CSV and JSON files  
+- Development of UI programming (main menu and gameplay interface)
 
 &nbsp;
 
