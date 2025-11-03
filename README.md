@@ -13,7 +13,7 @@ The following points are the key highlights of my work:
 
 - Creation of the main character's AI
 - Programming of gameplay mechanics (2D and 3D)  
-- Implementation of dialogs and localization systems, including a tool for switching texts and audio to multiple languages using CSV and JSON files  
+- Implementation of dialogs and localization systems, including a tool for switching texts and audio to multiple languages using JSON files  
 - Development of UI programming (main menu and gameplay interface)
 
 &nbsp;
